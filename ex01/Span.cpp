@@ -71,7 +71,6 @@ void	Span::populate(int max_value) {
 
 	for (unsigned int i = _numbers_stored; i < _numbers_capacity; i++) {
 		addNumber(rand() % max_value);
-		// addNumber(rand());
 	}
 }
 
